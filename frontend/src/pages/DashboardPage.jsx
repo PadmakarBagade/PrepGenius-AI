@@ -43,7 +43,7 @@ export default function DashboardPage() {
   ]
   
   const quickLinks = [
-    { to: '/history', icon: <Clock size={18} />, label: 'Test History', color: 'var(--accent-purple)' },
+    // { to: '/history', icon: <Clock size={18} />, label: 'Test History', color: 'var(--accent-purple)' },
     { to: '/summary', icon: <BookOpen size={18} />, label: 'New Summary', color: 'var(--accent-teal)' },
     { to: '/test', icon: <Star size={18} />, label: 'Quick Test', color: 'var(--accent-amber)' },
   ]

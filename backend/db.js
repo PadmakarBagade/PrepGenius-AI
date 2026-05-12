@@ -13,6 +13,7 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME || 'ai_study_planner',
   waitForConnections: true,
   connectionLimit: 10,   // Max 10 simultaneous connections
+  
   queueLimit: 0
 });
 
