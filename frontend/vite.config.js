@@ -9,7 +9,7 @@ export default defineConfig({
     // Proxy API calls to backend (avoids CORS issues in dev)
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://prepgenius-ai-eeee.onrender.com',
         changeOrigin: true
       }
     }
