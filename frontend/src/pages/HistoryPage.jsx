@@ -46,7 +46,12 @@ export default function HistoryPage() {
     }
   }
 
-  useEffect(() => { fetchHistory() }, [])
+  // useEffect(() => { fetchHistory() }, [])
+  useEffect(() => {
+  setHistory([])
+  setStats({})
+  setLoading(false)
+}, [])
 
   const getScoreColor = (score) => {
     if (score >= 80) return 'var(--success)'
